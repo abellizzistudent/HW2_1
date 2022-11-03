@@ -52,7 +52,7 @@ public class Main {
         String inB = scanner.next();
         scanner.close();
 
-        //Append a String value for the day field to match SimpleDateFormat of dd:HH:mm:ss
+        //Append a String value for the day field to match SimpleDateFormat of dd:HH:mm:ss defined in parseTime method above
         inA = "01:"+inA;
         inB = "02:"+inB;
 
